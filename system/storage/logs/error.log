@@ -1,0 +1,583 @@
+2025-10-03 08:34:14 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:14 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:20 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:20 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:26 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:26 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:38 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:38 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:39 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:39 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:39 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:39 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:39 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:39 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:40 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:40 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:40 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:40 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:40 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:40 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:40 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:40 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:40 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:40 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-03 08:34:41 - PHP Warning:  mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\upload\system\library\db\mysqli.php on line 75
+2025-10-03 08:34:41 - Error: mysqli object is not fully initialized
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 78
+Class: mysqli
+Function: set_charset
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 40
+Class: Opencart\System\Library\DB\MySQLi
+Function: __construct
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\install\controller\install\step_3.php
+Line: 119
+Class: Opencart\System\Library\DB
+Function: __construct
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Install\Controller\Install\Step3
+Function: save
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\install\index.php
+Line: 42
+Function: require_once
+2025-10-05 10:27:02 - PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 50
+2025-10-05 10:27:02 - PHP Warning:  rename(C:\xampp\htdocs\upload\system\storage\cache\template\58\5862526.tmp,C:/xampp/htdocs/upload/system/storage/cache/template/58/5865c0919ddc5a6ea0f3decf403118f8.php): Access is denied (code: 5) in C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php on line 61
+2025-10-05 10:27:02 - Error: Failed to write cache file "C:/xampp/htdocs/upload/system/storage/cache/template/58/5865c0919ddc5a6ea0f3decf403118f8.php".
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Cache\FilesystemCache.php
+Line: 76
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 397
+Class: Twig\Cache\FilesystemCache
+Function: write
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: loadTemplate
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\admin\controller\common\footer.php
+Line: 27
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 112
+Class: Opencart\Admin\Controller\Common\Footer
+Function: index
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\admin\controller\common\login.php
+Line: 57
+Class: Opencart\System\Engine\Loader
+Function: controller
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Common\Login
+Function: index
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 11
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
