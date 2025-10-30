@@ -1564,3 +1564,4 @@ class Product extends \Opencart\System\Engine\Controller {
 		$this->response->setOutput(json_encode($json));
 	}
 }
+//khushi

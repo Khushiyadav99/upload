@@ -581,3 +581,141 @@ Backtrace: 11
 File: C:\xampp\htdocs\upload\admin\index.php
 Line: 20
 Function: require_once
+2025-10-30 14:33:07 - Error: Error: Table 'opencart.oc_store' doesn't exist<br/>Error No: 1146<br/>SELECT * FROM `oc_store` WHERE REPLACE(`url`, 'www.', '') = 'http://localhost/upload/'
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 122
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\catalog\model\setting\store.php
+Line: 46
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 343
+Class: Opencart\Catalog\Model\Setting\Store
+Function: getStoreByHostname
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\proxy.php
+Line: 87
+Class: Opencart\System\Engine\Loader
+Function: Opencart\System\Engine\{closure}
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\catalog\controller\startup\setting.php
+Line: 20
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Catalog\Controller\Startup\Setting
+Function: index
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\index.php
+Line: 20
+Function: require_once
+2025-10-30 14:33:15 - Error: Error: Table 'opencart.oc_setting' doesn't exist<br/>Error No: 1146<br/>SELECT * FROM `oc_setting` WHERE `store_id` = '0' OR `store_id` = '0' ORDER BY `store_id` ASC
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 122
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\admin\model\setting\setting.php
+Line: 27
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 343
+Class: Opencart\Admin\Model\Setting\Setting
+Function: getSettings
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\proxy.php
+Line: 87
+Class: Opencart\System\Engine\Loader
+Function: Opencart\System\Engine\{closure}
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\admin\controller\startup\setting.php
+Line: 18
+Class: Opencart\System\Engine\Proxy
+Function: __call
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Startup\Setting
+Function: index
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-10-30 14:35:32 - Error: Error: Table 'opencart.oc_zone_to_geo_zone' doesn't exist<br/>Error No: 1146<br/>SELECT `tr1`.`tax_class_id`, `tr2`.`tax_rate_id`, `tr2`.`name`, `tr2`.`rate`, `tr2`.`type`, `tr1`.`priority` FROM `oc_tax_rule` `tr1` LEFT JOIN `oc_tax_rate` `tr2` ON (`tr1`.`tax_rate_id` = `tr2`.`tax_rate_id`) INNER JOIN `oc_tax_rate_to_customer_group` `tr2cg` ON (`tr2`.`tax_rate_id` = `tr2cg`.`tax_rate_id`) LEFT JOIN `oc_zone_to_geo_zone` `z2gz` ON (`tr2`.`geo_zone_id` = `z2gz`.`geo_zone_id`) LEFT JOIN `oc_geo_zone` `gz` ON (`tr2`.`geo_zone_id` = `gz`.`geo_zone_id`) WHERE `tr1`.`based` = 'shipping' AND `tr2cg`.`customer_group_id` = '1' AND `z2gz`.`country_id` = '222' AND (`z2gz`.`zone_id` = '0' OR `z2gz`.`zone_id` = '3563') ORDER BY `tr1`.`priority` ASC
+File: C:\xampp\htdocs\upload\system\library\db\mysqli.php
+Line: 122
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\library\db.php
+Line: 54
+Class: Opencart\System\Library\DB\MySQLi
+Function: query
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\library\cart\tax.php
+Line: 45
+Class: Opencart\System\Library\DB
+Function: query
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\admin\controller\startup\application.php
+Line: 28
+Class: Opencart\System\Library\Cart\Tax
+Function: setShippingAddress
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Startup\Application
+Function: index
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 208
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
