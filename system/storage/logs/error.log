@@ -719,3 +719,999 @@ Backtrace: 5
 File: C:\xampp\htdocs\upload\admin\index.php
 Line: 20
 Function: require_once
+2025-11-01 01:53:15 - PHP Warning:  Undefined array key "file" in C:\xampp\htdocs\upload\admin\controller\startup\error.php on line 78
+2025-11-01 01:53:15 - PHP Warning:  Undefined array key "line" in C:\xampp\htdocs\upload\admin\controller\startup\error.php on line 79
+2025-11-01 01:53:15 - Error: Class "Controller" not found
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 2
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\engine\autoloader.php
+Line: 79
+Function: include_once
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\engine\autoloader.php
+Line: 26
+Class: Opencart\System\Engine\Autoloader
+Function: load
+
+Backtrace: 2
+File: 
+Line: 
+Class: Opencart\System\Engine\Autoloader
+Function: Opencart\System\Engine\{closure}
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\engine\factory.php
+Line: 44
+Function: class_exists
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 81
+Class: Opencart\System\Engine\Factory
+Function: controller
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:55:24 - Error: Unable to find template "admin/view/template/catalog/pagetpl.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:04 - Error: Unable to find template "admin/view/template/catalog/pagetpl.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:06 - Error: Unable to find template "admin/view/template/catalog/pagetpl.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:40 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:41 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:41 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:41 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:41 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:57:42 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:58:59 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:59:00 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:59:00 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 01:59:01 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once
+2025-11-01 02:00:47 - Error: Unable to find template "admin/view/template/catalog/pagetwig.twig" (looked into: .).
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 234
+
+Backtrace: 0
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Loader\FilesystemLoader.php
+Line: 138
+Class: Twig\Loader\FilesystemLoader
+Function: findTemplate
+
+Backtrace: 1
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 304
+Class: Twig\Loader\FilesystemLoader
+Function: getCacheKey
+
+Backtrace: 2
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 357
+Class: Twig\Environment
+Function: getTemplateClass
+
+Backtrace: 3
+File: C:\xampp\htdocs\upload\system\storage\vendor\twig\twig\src\Environment.php
+Line: 320
+Class: Twig\Environment
+Function: load
+
+Backtrace: 4
+File: C:\xampp\htdocs\upload\system\library\template\twig.php
+Line: 119
+Class: Twig\Environment
+Function: render
+
+Backtrace: 5
+File: C:\xampp\htdocs\upload\system\library\template.php
+Line: 58
+Class: Opencart\System\Library\Template\Twig
+Function: render
+
+Backtrace: 6
+File: C:\xampp\htdocs\upload\system\engine\loader.php
+Line: 187
+Class: Opencart\System\Library\Template
+Function: render
+
+Backtrace: 7
+File: C:\xampp\htdocs\upload\admin\controller\catalog\page.php
+Line: 16
+Class: Opencart\System\Engine\Loader
+Function: view
+
+Backtrace: 8
+File: C:\xampp\htdocs\upload\system\engine\action.php
+Line: 96
+Class: Opencart\Admin\Controller\Catalog\Page
+Function: index
+
+Backtrace: 9
+File: C:\xampp\htdocs\upload\system\framework.php
+Line: 259
+Class: Opencart\System\Engine\Action
+Function: execute
+
+Backtrace: 10
+File: C:\xampp\htdocs\upload\admin\index.php
+Line: 20
+Function: require_once

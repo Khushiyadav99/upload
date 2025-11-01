@@ -1,0 +1,14 @@
+# Ignore system cache and log files
+system/storage/cache/
+system/storage/logs/
+
+# Ignore all cached images
+image/cache/
+
+# Ignore system cache files
+system/storage/cache/
+
+# Optional: ignore logs and temporary files
+*.log
+*.tmp
+

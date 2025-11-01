@@ -1,0 +1,21 @@
+<h1>{{ message }}</h1>
+
+
+<!-- User opens URL:
+   ↓
+admin/index.php?route=catalog/page
+   ↓
+OpenCart finds your controller file:
+   admin/controller/catalog/page.php
+   ↓
+It runs index() function
+   ↓
+$data['message'] = "Hello World"
+   ↓
+The controller loads the view:
+   admin/view/template/catalog/page.twig
+   ↓
+Twig replaces {{ message }} with "Hello World"
+   ↓
+Browser shows:
+   Hello World -->
