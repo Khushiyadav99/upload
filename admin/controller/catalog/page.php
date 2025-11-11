@@ -49,4 +49,4 @@ class Page extends \Opencart\System\Engine\Controller {
 //         |
 //         ├── Uses parent's tools ($this->load, $this->response)
 //         ├── Creates $data['message']
-//         └── Sends it to Twig (view file)
+//         └── Sends it to Twig (view file.)
